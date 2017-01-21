@@ -1,16 +1,18 @@
+@font-face {
+    font-family: firstFont;
+    src: url("../fonts/Hero Light.otf");
+}
+
 body {
   padding: 50px;
-  font: 10px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background: url("../images/Blurred-City.jpg") no-repeat center center fixed; 
+  font: 15px firstFont, Helvetica, Arial, sans-serif;
+  background: url("../images/Water-Tree.jpeg") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   color: #FFF;
-}
-
-a {
-  color: #00B7FF;
+  text-transform: capitalize;
 }
 
 .container {
@@ -18,4 +20,34 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+img {
+  margin-top: -40px;
+  width: 8%;
+}
+
+h1 {
+  margin-top: 200px;
+  font-size: 64px;
+}
+
+p {
+  margin-top: -40px;
+  font-size: 20px;
+}
+
+nav {
+  margin-top: 100px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 10px;
+}
+
+li {
+  padding: 40px;
 }
