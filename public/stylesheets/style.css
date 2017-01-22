@@ -58,3 +58,8 @@ ul {
 li {
   padding: 40px;
 }
+
+a {
+  color: #FFF;
+  text-decoration: none;
+}
