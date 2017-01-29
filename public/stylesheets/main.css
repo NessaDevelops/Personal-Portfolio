@@ -1,11 +1,11 @@
 @font-face {
     font-family: firstFont;
-    src: url("../fonts/Kirvy-Regular.otf");
+    src: url("../fonts/Montserrat-Regular.otf");
 }
 
 @font-face {
     font-family: secondFont;
-    src: url("../fonts/Orkney-Bold.otf");
+    src: url("../fonts/Montserrat-Bold.otf");
 }
 
 body {
@@ -18,7 +18,6 @@ body {
   -o-background-size: cover;
   background-size: cover;
   color: #FFF;
-  text-transform: capitalize;
 }
 
 .container {
@@ -28,21 +27,12 @@ body {
   align-items: center;
 }
 
-img {
-  height: 150px;
-}
-
 h1 {
   font-family: secondFont;
-  margin-top: 160px;
+  margin-top: 130px;
   font-size: 76px;
   text-align: center;
   text-transform: uppercase;
-}
-
-p {
-  margin-top: -60px;
-  font-size: 18px;
 }
 
 ul {

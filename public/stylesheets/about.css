@@ -1,0 +1,42 @@
+.personal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+
+.bio {
+    font-size: 14px;
+    width: 50%;
+    margin: 30px 30px 0 0;
+}
+
+.bio p {
+    line-height: 30px;
+}
+
+.photo {
+    background-image: url("../images/nessa.jpg"); 
+    background-repeat: no-repeat; 
+    background-position: center bottom; 
+    background-size: cover;
+    width: 50%;
+    max-width: 580px;
+    height: 550px;
+}
+
+.technical {
+
+}
+
+.competencies {
+
+}
+
+.dev-tools {
+
+}
+
+.skills {
+
+}
