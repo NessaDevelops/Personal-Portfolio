@@ -1,6 +1,6 @@
 .personal {
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
     justify-content: space-between;
     margin-left: 50px;
 }
@@ -27,8 +27,7 @@
 
 .technical {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
     justify-content: space-around;
     margin: 50px 50px 0 50px;
 }
@@ -38,7 +37,7 @@
 }
 
 .competencies p, .dev-tools p, .skills p {
-  line-height: 25px;
+    line-height: 25px;
 }
 
 .competencies, .dev-tools {

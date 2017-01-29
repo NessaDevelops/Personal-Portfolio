@@ -30,7 +30,7 @@ body {
 
 ul {
   display: flex;
-  flex-direction: row;
+  flex-flow: row wrap;
   list-style: none;
   padding: 10px;
 }
