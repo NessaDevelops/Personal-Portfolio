@@ -26,17 +26,12 @@
 }
 
 .technical {
-
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 50px 50px 0 50px;
 }
 
-.competencies {
-
-}
-
-.dev-tools {
-
-}
-
-.skills {
-
+.competencies p, .dev-tools p, .skills p {
+  line-height: 25px;
 }
