@@ -7,16 +7,9 @@ header {
   background-color: #000;
 }
 
-header.stick {
-    position: fixed;
-    top: 0;
-    z-index: 10000;
-    margin-top:12px;
-}
-
 .nav-logo {
-    height: 80px;
-    margin-top: 10px;
+    height: 60px;
+    margin: 15px 0 0 15px;
 }
 
 ul li {

@@ -28,10 +28,19 @@
 .technical {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-around;
     margin: 50px 50px 0 50px;
+}
+
+.technical h3 {
+    font-size: 24px;
 }
 
 .competencies p, .dev-tools p, .skills p {
   line-height: 25px;
+}
+
+.competencies, .dev-tools {
+    margin-right: 40px;
 }

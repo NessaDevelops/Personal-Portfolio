@@ -12,8 +12,6 @@ body {
   margin: 0;
   padding: 0;
   font: 15px firstFont, Helvetica, Arial, sans-serif;
-  background-color: #000;
-  color: #FFF;
 }
 
 .container {
@@ -27,14 +25,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
-
-h1 {
-  font-family: secondFont;
-  margin-top: 130px;
-  font-size: 76px;
-  text-align: center;
-  text-transform: uppercase;
+  color: #FFF;
 }
 
 ul {
