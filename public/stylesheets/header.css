@@ -1,17 +1,21 @@
 header {
   width: 100%;
-  height: 100px;
+  height: 80px;
   display: flex;
   flex-flow: row wrap; 
   justify-content: space-between;
-  background-color: #000;
+  background-color: #0C314C;
 }
 
 .nav-logo {
-    height: 60px;
+    height: 40px;
     margin: 15px 0 0 15px;
 }
 
-ul li {
-    padding: 10px;
+header ul li {
+    padding: 6px;
+}
+
+header ul li a {
+    font-size: 12px;
 }
