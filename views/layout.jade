@@ -7,5 +7,18 @@ html
     link(rel='stylesheet', href='/stylesheets/index.css')
     link(rel='stylesheet', href='/stylesheets/about.css')
     link(rel='stylesheet', href='/stylesheets/footer.css')
+    script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js")
+    script(src="/javascripts/typed.js-master/js/typed.js")
+    script.
+      $(function(){
+          $(".subtitle").typed({
+              strings: ["Web Designer + Developer", "Dog Lover", "Passionate Hiker", "Avid Gamer", "Meme Addict"],
+              typeSpeed: 30,
+              backSpeed: 20,
+              backDelay: 1000,
+              loop: true,
+              showCursor: false
+          });
+      });
   body
     block content
