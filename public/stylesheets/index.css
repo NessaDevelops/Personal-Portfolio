@@ -10,7 +10,10 @@ h1 {
 }
 
 .subtitle {
-  font-size: 14px;
+  text-align: center;
+  font-size: 16px;
+  margin-top: -46px;
+  letter-spacing: 6px;
 }
 
 .home-nav ul li {
@@ -23,26 +26,4 @@ h1 {
 
 .home-nav ul li a:hover {
   background-color:rgba(0, 0, 0, 0.4);
-}
-
-.typed-cursor{
-    opacity: 1;
-    -webkit-animation: blink 0.7s infinite;
-    -moz-animation: blink 0.7s infinite;
-    animation: blink 0.7s infinite;
-}
-@keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
-}
-@-webkit-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
-}
-@-moz-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
 }
