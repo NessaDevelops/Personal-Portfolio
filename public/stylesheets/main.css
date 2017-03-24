@@ -9,8 +9,13 @@
 }
 
 @font-face {
-    font-family: thirdFont;
+    font-family: lightFont;
     src: url("../fonts/Montserrat-Light.otf");
+}
+
+@font-face {
+    font-family: ultraLightFont;
+    src: url("../fonts/Montserrat-UltraLight.otf");
 }
 
 body {
