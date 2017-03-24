@@ -1,23 +1,16 @@
 .home-logo {
   height: 80px;
-  margin-top: 20px;
 }
 
 h1 {
   font-family: secondFont;
-  margin-top: 170px;
   font-size: 76px;
   text-align: center;
   text-transform: uppercase;
 }
 
 .subtitle {
-  margin-top: -40px;
   font-size: 14px;
-}
-
-.home-nav {
-  margin-top: 120px;
 }
 
 .home-nav ul li {
@@ -25,11 +18,11 @@ h1 {
 }
 
 .home-nav ul li a {
-  border: 2px solid #5E5E5E;
+  border: 5px solid rgba(0, 0, 0, 0.3);
 }
 
 .home-nav ul li a:hover {
-  border: 2px solid #FFF;
+  background-color:rgba(0, 0, 0, 0.4);
 }
 
 .typed-cursor{
