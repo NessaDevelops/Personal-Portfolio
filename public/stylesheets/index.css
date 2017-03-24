@@ -5,14 +5,20 @@
 h1 {
   font-family: secondFont;
   font-size: 76px;
-  text-align: center;
   margin: 0 60px;
 }
 
 .subtitle {
-  text-align: center;
-  font-size: 16px;
-  letter-spacing: 10px;
+  font-size: 18px;
+  letter-spacing: 4px;
+}
+
+.hobbies {
+  font-family: thirdFont;
+  margin-top: 10px;
+  font-size: 14px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
 }
 
 .home-nav ul li {
@@ -32,8 +38,8 @@ h1 {
     font-size: 54px;
   }
 
-  .subtitle {
-    font-size: 12px;
+  .hobbies {
+    font-size: 10px;
   }
 }
 
@@ -42,8 +48,9 @@ h1 {
     font-size: 24px;
   }
 
-  .subtitle {
-    font-size: 10px;
+  .hobbies {
+    font-size: 9px;
+    letter-spacing: 8px;
   }
 
   .home-nav {
