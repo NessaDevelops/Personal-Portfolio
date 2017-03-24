@@ -7,12 +7,12 @@ h1 {
   font-size: 76px;
   text-align: center;
   text-transform: uppercase;
+  margin: 0 60px;
 }
 
 .subtitle {
   text-align: center;
   font-size: 16px;
-  margin-top: -46px;
   letter-spacing: 10px;
 }
 
@@ -26,4 +26,28 @@ h1 {
 
 .home-nav ul li a:hover {
   background-color:rgba(0, 0, 0, 0.4);
+}
+
+@media only screen and (max-width: 1080px), only screen and (max-device-width: 1080px) {
+  h1 {
+    font-size: 54px;
+  }
+
+  .subtitle {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 580px), only screen and (max-device-width: 580px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  .subtitle {
+    font-size: 10px;
+  }
+
+  .home-nav {
+    visibility: hidden;
+  }
 }
