@@ -12,8 +12,10 @@
 }
 
 .bio {
+	width: 450px;
+	float: left;
     font-size: 14px;
-	width: 500px;
+	margin-top: 50px;
 }
 
 .bio p {
@@ -21,11 +23,13 @@
 }
 
 .photo {
+	width: 400px;
+    max-width: 580px;
+    height: 450px;
+	float: right;
+	margin: 35px 10px 0 0;
     background-image: url("../images/nessa2.jpg"); 
     background-size: cover;
-    width: 200px;
-    max-width: 580px;
-    height: 250px;
 }
 
 .technical {
