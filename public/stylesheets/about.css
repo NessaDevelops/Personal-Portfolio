@@ -1,6 +1,6 @@
-.bio {
-    font-size: 14px;
-	width: 500px;
+.personal, .technical {
+	width: 900px;
+	height: 525px;
 }
 
 .personal h3, .technical h3 {
@@ -9,6 +9,11 @@
 
 .personal p, .technical p {
     color: #494949;
+}
+
+.bio {
+    font-size: 14px;
+	width: 500px;
 }
 
 .bio p {
