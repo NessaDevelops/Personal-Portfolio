@@ -1,13 +1,6 @@
-.personal {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-}
-
 .bio {
     font-size: 14px;
-    width: 50vw;
-    margin: 30px 30px 0 50px;
+	width: 500px;
 }
 
 .personal h3, .technical h3 {
@@ -20,24 +13,18 @@
 
 .bio p {
     line-height: 30px;
-    margin-bottom: 40px;
 }
 
 .photo {
-    background-image: url("../images/nessa.jpg"); 
-    background-repeat: no-repeat; 
-    background-position: center bottom; 
+    background-image: url("../images/nessa2.jpg"); 
     background-size: cover;
-    width: 50%;
+    width: 200px;
     max-width: 580px;
-    height: 550px;
+    height: 250px;
 }
 
 .technical {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    margin: 50px 50px 0 50px;
+
 }
 
 .technical h3 {
@@ -49,5 +36,50 @@
 }
 
 .competencies, .dev-tools {
-    margin-right: 40px;
+}
+
+#wrapper {
+	background-color: #fff;
+	width: 1000px;
+	height: 525px;
+	padding: 10px;
+	margin: -265px 0 0 -410px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	box-shadow: 0 0 10px #666;
+}
+#carousel {
+	width: 1000px;
+	height: 525px;
+	overflow: hidden;
+}
+#carousel img {
+	border: none;
+	display: block;
+	margin-left: -300px;
+	float: left;
+	position: relative;
+	z-index: 0;
+	box-shadow: 0 0 10px #333;
+}
+#next {
+	background: url( img/gui-next.png ) center center no-repeat #999;
+	display: block;
+	width: 100px;
+	height: 525px;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	z-index: 5;
+	opacity: 0.1;
+ 
+	-o-transition: opacity 1s ease;
+	-ms-transition: opacity 1s ease;
+	-moz-transition: opacity 1s ease;
+	-webkit-transition: opacity 1s ease;
+	transition: opacity 1s ease;
+}
+#next:hover {
+	opacity: 0.5;
 }
