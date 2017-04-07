@@ -15,10 +15,10 @@
 	width: 450px;
 	float: left;
     font-size: 14px;
-	margin-top: 50px;
+	margin: 60px 0 0 10px;
 }
 
-.bio p {
+.descrip {
     line-height: 30px;
 }
 
@@ -27,13 +27,13 @@
     max-width: 580px;
     height: 450px;
 	float: right;
-	margin: 35px 10px 0 0;
+	margin: 35px 20px 0 0;
     background-image: url("../images/nessa2.jpg"); 
     background-size: cover;
 }
 
 .technical {
-
+	margin: 90px 0 0 0;
 }
 
 .technical h3 {
@@ -44,7 +44,19 @@
     line-height: 25px;
 }
 
-.competencies, .dev-tools {
+.competencies {
+	float: left;
+	margin-left: 30px;
+}
+
+.dev-tools {
+	float: left;
+	margin-left: 100px;
+}
+
+.skills {
+	float: right;
+	margin-right: 30px;
 }
 
 #wrapper {
