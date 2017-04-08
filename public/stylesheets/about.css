@@ -60,14 +60,14 @@
 }
 
 #wrapper {
-	background-color: #fff;
+	background-color: rgba(0, 0, 0, 0.3);
 	width: 1000px;
 	height: 525px;
 	padding: 10px;
 	margin: -265px 0 0 -410px;
 	position: absolute;
 	top: 50%;
-	left: 50%;
+	left: 45%;
 	box-shadow: 0 0 10px #666;
 }
 #carousel {
