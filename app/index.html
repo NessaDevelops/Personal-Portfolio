@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Nessa Stabler | Full Stack Web Developer</title>
+    		<base href="/" />
+    		<meta name="viewport" content="width=device-width" />
+    		<link rel="icon" type="image/png" href="app/img/PersonalLogoWhiteInitials.png" />
+		<link rel='stylesheet', href='app/css/index.css' />
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
+		<script src="app/js/routes.js"></script>
+	</head>
+	<body ng-app="myApp">
+		<div class="page-container">
+			<div class="content" ng-view></div>
+			<div class="nav" ng-include src="'app/templates/nav.html'"></div>
+		</div>
+	</body>
+</html>

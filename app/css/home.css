@@ -1,0 +1,52 @@
+.home-logo {
+  height: 80px;
+}
+
+h1 {
+  font-family: secondFont;
+  font-size: 76px;
+  margin: 0 60px;
+}
+
+.subtitle {
+  font-family: lightFont;
+  font-size: 16px;
+  letter-spacing: 6px;
+  margin: 10px 60px 14px 60px;
+}
+
+.hobbies {
+  font-family: ultraLightFont;
+  margin-top: 6px;
+  font-size: 14px;
+  letter-spacing: 6px;
+}
+
+@media only screen and (max-width: 1080px), only screen and (max-device-width: 1080px) {
+  h1 {
+    font-size: 54px;
+  }
+
+  .hobbies {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 580px), only screen and (max-device-width: 580px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  .subtitle {
+    font-size: 12px;
+  }
+
+  .hobbies {
+    font-size: 10px;
+    letter-spacing: 8px;
+  }
+
+  .home-nav {
+    visibility: hidden;
+  }
+}
