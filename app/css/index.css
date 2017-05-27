@@ -31,10 +31,6 @@ body {
   background-size: cover;
 }
 
-.content {
-
-}
-
 ul {
   display: flex;
   flex-flow: row wrap;

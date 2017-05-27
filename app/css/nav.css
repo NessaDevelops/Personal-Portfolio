@@ -1,7 +1,12 @@
 .nav {
-  height: 20vh;
+  height: 4vh;
+  width: 100vw;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
 }
 
 .logo {
-  height: 40px;
+    margin: 10px 0 0 10px;
+    height: 40px;
 }
