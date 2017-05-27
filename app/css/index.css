@@ -31,26 +31,8 @@ body {
   background-size: cover;
 }
 
-.page-container {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-}
-
 .content {
-  margin-top: 20px;
-  height: 50vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-}
 
-.nav {
-  margin-bottom: 20px;
-  height: 20vh;
 }
 
 ul {
@@ -64,16 +46,4 @@ ul li a {
   color: #FFF;
   text-decoration: none;
   padding: 15px 20px;
-}
-
-.home-nav ul li {
-  padding: 35px;
-}
-
-.home-nav ul li a {
-  border: 5px solid rgba(0, 0, 0, 0.3);
-}
-
-.home-nav ul li a:hover {
-  background-color:rgba(0, 0, 0, 0.4);
 }
