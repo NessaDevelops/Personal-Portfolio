@@ -18,6 +18,11 @@
     src: url("../fonts/Montserrat-UltraLight.otf");
 }
 
+@font-face {
+    font-family: maybeFont;
+    src: url("../fonts/open_sans.ttf");
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -41,5 +46,5 @@ ul {
 ul li a {
   color: #FFF;
   text-decoration: none;
-  padding: 15px 20px;
+  padding: 12px 35px;
 }

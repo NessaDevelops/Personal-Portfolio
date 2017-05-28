@@ -12,20 +12,21 @@
 }
 
 h1 {
-  font-family: secondFont;
+  font-family: firstFont;
   font-size: 76px;
   margin: 0 60px;
 }
 
 .subtitle {
-  font-family: lightFont;
+  font-family: maybeFont;
   font-size: 16px;
+  font-weight: bolder;
   letter-spacing: 6px;
   margin: 10px 60px 14px 60px;
 }
 
 .hobbies {
-  font-family: ultraLightFont;
+  font-family: maybeFont;
   margin-top: 6px;
   font-size: 14px;
   letter-spacing: 6px;
