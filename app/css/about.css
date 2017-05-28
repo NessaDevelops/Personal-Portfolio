@@ -14,7 +14,7 @@
     height: 270px;
     background-image: url("../img/photo.jpg"); 
     background-size: cover;
-	border: 3px solid #FFF;
+	border: 1px solid #FFF;
 }
 
 .box {
@@ -23,7 +23,7 @@
 }
 
 .title {
-	margin-top: 20px;
+	margin-top: 65px;
 	font-size: 70px;
 	font-weight: bolder;
 	letter-spacing: 6px;
@@ -39,7 +39,7 @@
 }
 
 .down-arrow {
-	margin: 16vh auto 0 auto;
+	margin: 14vh auto 0 auto;
 	width: 80px;
     max-width: 250px;
     height: 60px;
