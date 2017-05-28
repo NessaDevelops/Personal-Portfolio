@@ -7,14 +7,24 @@
 	font-family: maybeFont;
 }
 
+.photo {
+	margin: 8vh auto 0 auto;
+	width: 250px;
+    max-width: 550px;
+    height: 270px;
+    background-image: url("../img/fixed.jpg"); 
+    background-size: cover;
+	border: 3px solid #FFF;
+}
+
 .box {
 	height: 80vh;
 	width: 100%;
 }
 
 .title {
-	margin-top: 30vh;
-	font-size: 80px;
+	margin-top: 20px;
+	font-size: 70px;
 	font-weight: bolder;
 	letter-spacing: 6px;
 }
@@ -22,7 +32,7 @@
 .text {
 	margin: -70px auto 0 auto;
 	width: 580px;
-	font-size: 22px;
+	font-size: 18px;
 	font-weight: bold;
 	letter-spacing: 5px;
 	line-height: 34px;
@@ -31,14 +41,6 @@
 .left {
 	width: 30%;
 	margin-right: 20px;
-}
-
-.photo {
-	width: 330px;
-    max-width: 580px;
-    height: 380px;
-    background-image: url("../img/photo.jpg"); 
-    background-size: cover;
 }
 
 .right {
