@@ -12,7 +12,7 @@
 	width: 250px;
     max-width: 550px;
     height: 270px;
-    background-image: url("../img/fixed.jpg"); 
+    background-image: url("../img/photo.jpg"); 
     background-size: cover;
 	border: 3px solid #FFF;
 }
@@ -38,28 +38,13 @@
 	line-height: 34px;
 }
 
-.left {
-	width: 30%;
-	margin-right: 20px;
-}
-
-.right {
-	width: 40%;
-	margin-left: 20px;
-	text-align: left;
-}
-
-h1 {
-	font-family: lightFont;
-	font-size: 32px;
-	line-height: 34px;
-	margin-top: 30px;
-}
-
-.info {
-	font-size: 26px;
-}
-
-.bottom {
-	width: 100%;
+.down-arrow {
+	margin: 16vh auto 0 auto;
+	width: 80px;
+    max-width: 250px;
+    height: 60px;
+    background-image: url("../img/down-arrows.png"); 
+    background-size: cover;
+	opacity: 0.5;
+    filter: alpha(opacity=50);
 }
