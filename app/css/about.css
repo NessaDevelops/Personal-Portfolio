@@ -1,6 +1,7 @@
 .content {
 	margin: 40px auto 0 0;
 	width: 100vw;
+	max-width:100%;
 	display: flex;
   	flex-direction: column;
 	justify-content: flex-start;
@@ -10,7 +11,7 @@
 .photo {
 	margin: 8vh auto 0 auto;
 	width: 250px;
-    max-width: 550px;
+	max-width: 550px;
     height: 270px;
     background-image: url("../img/photo.jpg"); 
     background-size: cover;
@@ -18,8 +19,7 @@
 }
 
 .box {
-	height: 80vh;
-	width: 100%;
+	height: 100vh;
 }
 
 .title {
@@ -39,7 +39,8 @@
 }
 
 .down-arrow {
-	margin: 14vh auto 0 auto;
+	margin-top: 80vh;
+	margin-left: 46vw;
 	width: 80px;
     max-width: 250px;
     height: 60px;
@@ -47,4 +48,18 @@
     background-size: cover;
 	opacity: 0.5;
     filter: alpha(opacity=50);
+	position: fixed;
+}
+
+.med-icon {
+	width: 160px;
+    height: 140px;
+    background-size: cover;
+}
+
+.row {
+	display: flex;
+  	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
 }

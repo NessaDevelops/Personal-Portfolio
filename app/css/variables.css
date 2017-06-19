@@ -1,0 +1,14 @@
+.lg-mgn-top { margin-top: 30vh; }
+.lg-mgn-rt { margin-right: 30vh; }
+.lg-mgn-bot { margin-bottom: 30vh; }
+.lg-mgn-lt { margin-left: 30vh; }
+
+.med-mgn-top { margin-top: 20vh; }
+.med-mgn-rt { margin-right: 20vh; }
+.med-mgn-bot { margin-bottom: 20vh; }
+.med-mgn-lt { margin-left: 20vh; }
+
+.sm-mgn-top { margin-top: 10vh; }
+.sm-mgn-rt { margin-right: 10vh; }
+.sm-mgn-bot { margin-bottom: 10vh; }
+.sm-mgn-lt { margin-left: 10vh; }
