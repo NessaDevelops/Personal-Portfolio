@@ -53,11 +53,13 @@
 }
 
 .med-icon {
-	width: 160px;
-    height: 140px;
-    background-size: cover;
+	width: 260px;
+    height: 240px;
+	margin-bottom: 28px;
+	border-radius: 100em;
 	vertical-align: middle;
-	margin-right: 10px;
+	box-shadow: 0 14px 6px -6px #ccc;
+	border: 1px solid #FFF;
 }
 
 .lg-icon {
@@ -78,6 +80,11 @@
 .column {
 	display: flex;
 	flex-direction: column;
+	text-align: center;
+}
+
+.column span {
+	width: 240px;
 }
 
 .box1 {
@@ -85,7 +92,9 @@
 }
 
 .box2 {
-	font-size: 22px;
+	font: 16px lightFont;
+	letter-spacing: 2px;
+	line-height: 24px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
