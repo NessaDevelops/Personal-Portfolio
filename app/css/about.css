@@ -41,9 +41,9 @@
 
 .down-arrow {
 	margin-top: 80vh;
-	margin-left: 46vw;
-	width: 80px;
-    max-width: 250px;
+	margin-left: 48vw;
+	width: 60px;
+    max-width: 220px;
     height: 60px;
     background-image: url("../img/down-arrows.png"); 
     background-size: cover;
@@ -75,6 +75,18 @@
 	align-items: center;
 }
 
+.column {
+	display: flex;
+	flex-direction: column;
+}
+
+.box1 {
+	height: 95vh;
+}
+
 .box2 {
 	font-size: 22px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
