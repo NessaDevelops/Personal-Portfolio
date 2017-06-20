@@ -175,3 +175,9 @@
 	width: 326px;
 	background-color: #FFF;
 }
+
+.design-rules span {
+	margin-top: 40%;
+	color: rgba(92,104,112,1);
+	font: 14px;
+}
