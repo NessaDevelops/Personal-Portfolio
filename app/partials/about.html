@@ -1,13 +1,15 @@
 <link rel='stylesheet', href='app/css/about.css'></link>
-<div class="nav" ng-include src="'app/templates/nav.html'"></div>
+<script src="app/js/Scrollify-master/jquery.scrollify.js"></script>
+<script src="app/js/scrollify.js"></script>
 <div class="content">
-	<div class='box'>
+	<section class='box'>
+		<div class="nav" ng-include src="'app/templates/nav.html'"></div>
 		<div class="photo"></div>
 		<p class="title">HELLO</p>
 		<p class="text">I'm glad you stumbled upon my website. My name is Nessa. I love creating &amp; coding beautiful websites.</p>
-	</div>
+	</section>
 	<div class="down-arrow"></div>
-	<div class='box box2'>
+	<section class='box box2'>
 		<div class='row sm-mgn-bot'>
 			<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
 				<div class="flipper">
@@ -96,8 +98,8 @@
 				</div>
 			</div>
 		</div>
-	</div>
-	<div class='box row'>
+	</section>
+	<section class='box row'>
 		<div class='column design-rules'>
 			<img class='lg-icon' src="/app/img/temp.jpg"/>
 			<span>planning stuffstuffstuff</span>
@@ -110,5 +112,5 @@
 			<img class='lg-icon' src="/app/img/temp3.jpg"/>
 			<span>responsive &amp; compatible on all devices</span>
 		</div>
-	</div>
+	</section>
 </div>
