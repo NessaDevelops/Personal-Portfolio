@@ -15,7 +15,9 @@
     height: 270px;
     background-image: url("../img/photo.jpg"); 
     background-size: cover;
-	border: 1px solid #FFF;
+	-moz-box-shadow: 0 0 10px #ccc; 
+	-webkit-box-shadow: 0 0 10px #ccc; 
+	box-shadow: 0 0 10px #ccc;
 }
 
 .box {
@@ -58,8 +60,9 @@
 	margin-bottom: 28px;
 	border-radius: 100em;
 	vertical-align: middle;
-	box-shadow: 0 14px 6px -6px #ccc;
-	border: 1px solid #FFF;
+	-moz-box-shadow: 0 0 10px #ccc; 
+	-webkit-box-shadow: 0 0 10px #ccc; 
+	box-shadow: 0 0 10px #ccc;
 }
 
 .lg-icon {
