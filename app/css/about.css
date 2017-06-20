@@ -92,7 +92,7 @@
 }
 
 .box2 {
-	font: 16px lightFont;
+	font: 16px maybeFont;
 	letter-spacing: 2px;
 	line-height: 24px;
 	display: flex;
