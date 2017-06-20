@@ -2,14 +2,14 @@
 <script src="app/js/Scrollify-master/jquery.scrollify.js"></script>
 <script src="app/js/scrollify.js"></script>
 <div class="content">
-	<section class='box'>
-		<div class="nav" ng-include src="'app/templates/nav.html'"></div>
+	<section class='box' data-section-name="about">
+		<div ng-include src="'app/templates/nav.html'"></div>
 		<div class="photo"></div>
 		<p class="title">HELLO</p>
 		<p class="text">I'm glad you stumbled upon my website. My name is Nessa. I love creating &amp; coding beautiful websites.</p>
+		<!--<a class="scroll1" href="#facts"><img class="scroll"/></a>-->
 	</section>
-	<div class="down-arrow"></div>
-	<section class='box box2'>
+	<section class='box box2' data-section-name="facts">
 		<div class='row sm-mgn-bot'>
 			<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
 				<div class="flipper">
@@ -99,7 +99,7 @@
 			</div>
 		</div>
 	</section>
-	<section class='box row'>
+	<section class='box row box3' data-section-name="skills">
 		<div class='column design-rules'>
 			<img class='lg-icon' src="/app/img/temp.jpg"/>
 			<span>planning stuffstuffstuff</span>
