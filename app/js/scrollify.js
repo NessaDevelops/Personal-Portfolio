@@ -1,6 +1,8 @@
 $(function() {
     $.scrollify({
-        section : ".box"
+        section : ".box",
+        sectionName: false,
+        interstitialSection: ".nav"
     });
 });
 

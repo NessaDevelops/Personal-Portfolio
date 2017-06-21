@@ -5,6 +5,9 @@
   display: flex;
   flex-flow: row;
   justify-content: space-between;
+  position: fixed;
+  background: rgba(92,104,112,1);
+	opacity: 0.4;
 }
 
 .logo {
