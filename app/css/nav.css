@@ -64,6 +64,8 @@
 
 .header.header-shrink nav a {
 	line-height: 50px;
+	font-weight: 300;
+	font-size: 1em;
 }
 
 .header.header-shrink .logo {
