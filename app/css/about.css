@@ -28,7 +28,7 @@
 	font-size: 70px;
 	font-weight: bolder;
 	letter-spacing: 6px;
-	font-family: maybeFont;
+	font-family: secondFont;
 }
 
 .text {
@@ -97,7 +97,7 @@
 	width: 240px;
 }
 .box3 {
-	padding: 0 80px;
+	padding: 100px 80px 0 80px;
 }
 
 .box1 {
@@ -184,4 +184,10 @@
 	color: rgba(92,104,112,1);
 	font: 18px;
 	line-height: 34px;
+}
+
+h2 {
+	font-family: secondFont;
+	font-size: 66px;
+	text-align: left;
 }
