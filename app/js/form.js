@@ -1,5 +1,46 @@
-var frmvalidator  = new Validator("contactform");
-frmvalidator.addValidation("name","req","Please provide your name");
-frmvalidator.addValidation("email","req","Please provide your email");
-frmvalidator.addValidation("email","email", "Please enter a valid email address");
-frmvalidator.addValidation("message","req","Please provide a message");
+$(document).ready(function() {
+
+    $('#contactForm').submit(function(e) {
+        e.preventDefault();
+        var name = $('#name').val();
+        var email = $('#email').val();
+        var message = $('#message').val();
+
+        $(".error").remove();
+
+        if (name.length < 1) {
+            $('#name').after('<span class="error">This field is required</span>');
+        }
+        if (email.length < 1) {
+            $('#email').after('<span class="error">This field is required</span>');
+        } else {
+            var regEx = /^[A-Z0-9][A-Z0-9._%+-]{0,63}@(?:[A-Z0-9-]{1,63}\.){1,125}[A-Z]{2,63}$/;
+            var validEmail = regEx.test(email);
+            if (!validEmail) {
+                $('#email').after('<span class="error">Enter a valid email</span>');
+            }
+        }
+        if (message.length < 1) {
+            $('#message').after('<span class="error">This field is required</span>');
+        }
+    });
+
+    // $('form[id="contactForm"]').validate({
+    //     rules: {
+    //     name: 'required',
+    //     email: {
+    //         required: true,
+    //         email: true,
+    //     },
+    //     message: 'required',
+    //     },
+    //     messages: {
+    //     name: 'This field is required',
+    //     email: 'Enter a valid email',
+    //     message: 'Password must be at least 8 characters long'
+    //     },
+    //     submitHandler: function(form) {
+    //     form.submit();
+    //     }
+    // });
+});

@@ -123,3 +123,7 @@ input:focus, textarea:focus {
     background-image: url("../img/linkedin.png"); 
     background-size: cover;
 }
+
+.error {
+  color: red;
+}

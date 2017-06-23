@@ -2,16 +2,16 @@
 <div class="nav" ng-include src="'app/templates/nav.html'"></div>
 <div class='content'>
     <h1>Enjoy my work?<br/>Send me an email if you'd like to hire me, collaborate, or have any questions.</h1>
-    <form method="POST" name="contactform" action="contact-form-handler.php">
-        <input type="text" name="name" placeholder="Name" >
-        <label>Name</label>
-        <input type="text" name="email" placeholder="Email">
-        <label>Email</label>
-        <textarea name="message" placeholder="Message"></textarea>
-        <label>Message</label>
-        <input type="submit" value="Submit">
+    <form method="POST" id="contactForm" name="contactform" action="contact-form-handler.php">
+        <input type="text" id="name" name="name" placeholder="Name"></input>
+        <!--<label>Name</label>-->
+        <input type="text" id="email" name="email" placeholder="Email"></input>
+        <!--<label>Email</label>-->
+        <textarea name="message" id="message" placeholder="Message"></textarea>
+        <!--<label>Message</label>-->
+        <input type="submit" value="Submit" />
     </form>
     <a href="https://www.linkedin.com/in/jenessa-stabler"><div class="linkedin"></div></a>
 </div>
-<script src="app/js/gen_validatorv31.js" type="text/javascript"></script>
 <script src="app/js/form.js"></script>
+<script src="app/js/jquery.validate.js"></script>
