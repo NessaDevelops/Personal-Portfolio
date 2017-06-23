@@ -120,7 +120,7 @@ input:focus, textarea:focus {
 .linkedin {
 	width: 40px;
     height: 40px;
-    margin: 50px 450px 0 0;
+    margin: -50px 0 0 510px;
     background-image: url("../img/linkedin.png"); 
     background-size: cover;
 }
