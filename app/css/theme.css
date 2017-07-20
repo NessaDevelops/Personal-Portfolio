@@ -24,8 +24,17 @@
 }
 
 html, body {
-  height: 100%;
-  margin: 0;
+    height: 100%;
+    margin: 0;
+    font: 15px firstFont, Helvetica, Arial, sans-serif;
+    color: var(--white);
+    text-align: center;
+    background: url("../img/Misty.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .content {
@@ -50,6 +59,32 @@ html, body {
 .mgn-sm-rt { margin-right: 10vh; }
 .mgn-sm-bot { margin-bottom: 10vh; }
 .mgn-sm-lt { margin-left: 10vh; }
+
+.icon-sm {
+    width: 60px;
+    height: 50px;
+	margin: 0 auto 5px auto;
+}
+
+.icon-med {
+    width: 260px;
+    height: 240px;
+	margin-bottom: 22px;
+	-moz-box-shadow: 0 0 10px var(--off-white); 
+	-webkit-box-shadow: 0 0 10px var(--off-white); 
+	box-shadow: 0 0 10px var(--off-white); 
+}
+
+.icon-lg {
+    height: 180px;
+	width: 100%;
+    background-size: cover;
+	margin-right: 10px;
+	border-bottom: solid rgba(92,104,112,1) 6px;
+	-moz-box-shadow: 0 0 10px var(--off-white);  
+	-webkit-box-shadow: 0 0 10px var(--off-white); 
+	box-shadow: 0 0 10px var(--off-white);
+}
 
 .row {
 	display: flex;
