@@ -4,7 +4,7 @@ body {
     font: 15px firstFont, Helvetica, Arial, sans-serif;
     color: var(--white);
     text-align: center;
-        background: url("../img/Misty.jpg") no-repeat center center fixed; 
+    background: url("../img/Misty.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
