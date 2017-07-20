@@ -2,8 +2,6 @@
 	margin: 0 auto;
 	width: 100vw;
 	max-width:100%;
-	display: flex;
-  	flex-direction: column;
 	justify-content: flex-start;
 }
 
@@ -14,9 +12,9 @@
     height: 270px;
     background-image: url("../img/photo.jpg"); 
     background-size: cover;
-	-moz-box-shadow: 0 0 10px #ccc; 
-	-webkit-box-shadow: 0 0 10px #ccc; 
-	box-shadow: 0 0 10px #ccc;
+	-moz-box-shadow: 0 0 10px var(--off-white); 
+	-webkit-box-shadow: 0 0 10px var(--off-white); 
+	box-shadow: 0 0 10px var(--off-white); 
 }
 
 .box {
@@ -58,9 +56,9 @@
     height: 240px;
 	margin-bottom: 22px;
 	border-radius: 100em;
-	-moz-box-shadow: 0 0 10px #ccc; 
-	-webkit-box-shadow: 0 0 10px #ccc; 
-	box-shadow: 0 0 10px #ccc;
+	-moz-box-shadow: 0 0 10px var(--off-white); 
+	-webkit-box-shadow: 0 0 10px var(--off-white); 
+	box-shadow: 0 0 10px var(--off-white); 
 }
 
 .sm-icon {
@@ -75,9 +73,9 @@
     background-size: cover;
 	margin-right: 10px;
 	border-bottom: solid rgba(92,104,112,1) 6px;
-	-moz-box-shadow: 0 0 10px #ccc; 
-	-webkit-box-shadow: 0 0 10px #ccc; 
-	box-shadow: 0 0 10px #ccc;
+	-moz-box-shadow: 0 0 10px var(--off-white);  
+	-webkit-box-shadow: 0 0 10px var(--off-white); 
+	box-shadow: 0 0 10px var(--off-white); 
 }
 
 .column span {
@@ -164,7 +162,7 @@
 .design-rules {
 	height: 480px;
 	width: 326px;
-	background-color: #FFF;
+	background-color: var(--white); 
 }
 
 .design-rules span {

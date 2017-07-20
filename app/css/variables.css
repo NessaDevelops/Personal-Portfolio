@@ -55,5 +55,7 @@ html, body {
 	flex-direction: column;
 }
 
-.white { color: #FFF; }
-.white-bg { background-color: #FFF; }
+:root {
+    --white: #FFF;
+    --off-white: #CCC;
+}
