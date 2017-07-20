@@ -28,6 +28,14 @@ html, body {
   margin: 0;
 }
 
+.content {
+	margin: 0 auto;
+	width: 100vw;
+	max-width:100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
 .mgn-lg-top { margin-top: 30vh; }
 .mgn-lg-rt { margin-right: 30vh; }
 .mgn-lg-bot { margin-bottom: 30vh; }
@@ -58,4 +66,7 @@ html, body {
 :root {
     --white: #FFF;
     --off-white: #CCC;
+    --grey: #D3D3D3;
+    --baby-blue: #2AB0C5;
+    --red: #FF0000;
 }
